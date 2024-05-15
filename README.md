@@ -1,3 +1,16 @@
+
+# Points
+
+1) Create Store - Create store file inside SRC folder and import ConfigureStore
+2) Add React-Redux Provider component on root of the project and assign Store (created in step-1)
+3) Create Slice - Create slice file at features/counter/counterSlice - Add slicename, initialstate and reducers
+4) Add Slice Reducer (created in step 3) reference into the Store file (step-1)
+5) In UI, Import useDispatch, useSelector and actions:
+    useSelector: it allows access to the state stored in the redux store.
+    useDispatch: with this hook, you can dispatch an action to the store.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
